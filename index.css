@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    background-color: gainsboro;
+}
+h1{
+    background-color: red;
+    font-size: 18px;
+    padding: 13px;
+    color: white;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu{
+    padding:0;
+    background-color: gainsboro;
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 4vh;
+}
+.btn-menu{
+    margin-right: 8vw;
+    background-color: gainsboro;
+    color: black;
+    border: 1px solid gainsboro;
+}
+
+.navbar{   
+    position: absolute;
+    top: 15vh;
+    left: -18px;
+    width: 15vw;
+    height: 20vh;
+    background-color: gainsboro;
+    color: black;
+    transition: 200ms;
+    cursor: pointer;
+}
+.navbar_ativo{
+    left: -200vw;
+    transition: 200ms;
+}
+
+
+a:visited{
+    color: black;
+}
+.menu-itens{
+    list-style: none;
+}
+.menu-itens a{
+    text-decoration: none;
+}
+.containers{
+    background-color: gainsboro;
+    color: black;
+}
+.boxes{
+    background-color: white;
+}
+.fieldset1{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.titulo{
+    padding: 0;
+}
+.ppm{
+    display: flex;
+}
+h3{
+    font-size: 20px;
+}
+.fieldset2{
+    font-size: 14px;
+    display: block;
+    justify-content: space-around;
+}
+.fieldset3{
+    font-size: 14px;
+    display: block;
+    justify-content: space-around;
+    
+}
